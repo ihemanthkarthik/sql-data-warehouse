@@ -45,9 +45,15 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 - **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.
 - **Scope**: Focus on the latest dataset only; historization of data is not required.
 - **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+---
+### 🗂️ Project Management & Task Tracking
+
+Managed and tracked using [![Notion Badge](https://img.shields.io/badge/Notion-000000?logo=notion&logoColor=white)](https://www.notion.so/Data-Warehouse-Project-2a0e4c1143fb80fa8ed2f26e18bf11f2?source=copy_link)
+
+All tasks, milestones, and deliverables were organized and monitored through this Notion workspace:  
+👉 [View Project Dashboard](https://www.notion.so/Data-Warehouse-Project-2a0e4c1143fb80fa8ed2f26e18bf11f2?source=copy_link)
 
 ---
-
 ### BI: Analytics & Reporting (Data Analysis)
 
 #### Objective

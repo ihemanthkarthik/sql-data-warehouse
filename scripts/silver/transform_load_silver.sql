@@ -121,7 +121,7 @@ BEGIN
 			 WHEN cst_gndr = 'F' THEN 'Female'
 			 ELSE 'N/A' END AS cst_gndr,
 		cst_create_date
-		FROM (SELECT *, ROW_NUMBER() OVER (PARTITION BY cst_id ORDER BY cst_create_date DESC) AS latest FROM [bronze].[crm_cust_info])t
+		FROM (SELECT *, ROW_NUMBER() OVER (PARTITION BY cst_id ORDER BY cst_create_date DESC) AS latest FROM [bronze].[crm_cust_info] WHERE cst_id IS NOT NULL)t
 		WHERE latest = 1
 		PRINT '>> Total Records Loaded: ' + CAST(@@ROWCOUNT AS NVARCHAR) + ' records.';
 		SET @end_time = GETDATE()
